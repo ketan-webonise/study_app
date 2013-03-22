@@ -1,0 +1,8 @@
+<h1>Editing post</h1>
+
+<%= form_for(@post, :url => user_post_path(current_user,@post)) do |f| %>
+<%= render :partial =>'form', :locals => {:f => f} %>
+<% end %>
+
+<%= link_to 'Show', user_post_path(current_user,@post) %> |
+<%= link_to 'Back', user_posts_path(current_user) %>
