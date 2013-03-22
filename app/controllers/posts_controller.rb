@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
-  # before_filter RubyCAS::Filter
-  before_filter :authenticate_user!
+  before_filter RubyCAS::Filter
+  # before_filter :authenticate_user!
 
   # GET /posts
   # GET /posts.json

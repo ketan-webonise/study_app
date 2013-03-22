@@ -24,10 +24,10 @@ group :assets do
 end
 
 #NOTE CAS Client implementation
-gem 'rubycas-client-rails'
+# gem 'rubycas-client-rails'
 # gem 'devise_cas_authenticatable'
-# gem 'rubycas-client','2.3.9'
-# gem 'devise_cas_authenticatable','1.1.4'
+gem 'rubycas-client','2.3.9'
+gem 'devise_cas_authenticatable','1.1.4'
 #gem 'mongo_session_store-rails3','3.0.5'
 
 gem 'jquery-rails'
